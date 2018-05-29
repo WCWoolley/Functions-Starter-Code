@@ -27,7 +27,7 @@ function fahrenheitToCelcius(far){
 }
 
 function stripVowels(str){
-  return str.replace(/[aeiou]/ig,'');
+  return str.replace(/[aeiou]/gi,'');
 }
 
 // do not delete
